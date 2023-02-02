@@ -1,0 +1,238 @@
+.navbar{
+   display: flex;
+   justify-content: space-between;
+   margin:1rem 0;
+   width: 100%;
+   justify-content: space-between;
+
+}
+
+.logo p{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 4px;
+  
+}
+
+.logo p span{
+   width: 2.5rem;
+   height: 2.5rem;
+   background:no-repeat;
+   display: inline-block;
+   background-image: url('/src/assets/profil.png');
+   margin-right: 8px;
+   margin-bottom: 4px;
+}
+
+.desktop-menu ul{
+   list-style: none;
+   display: flex;
+   justify-content:center;
+   align-items: center;
+  
+}
+
+
+.logo p{
+   font-size: 1.2rem;
+   color:white;
+   background: transparent;
+
+}
+
+.desktop-menu ul li {
+   margin-top: 0.5rem;
+   margin-left:4rem;
+   font-size: 1rem;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   cursor: pointer;
+   transform: all 0.6 ease-in-out;
+}
+
+.desktop-menu ul li:hover{
+   color: #EEAA55;
+}
+
+.mani{
+   color: aliceblue;
+   text-decoration: none;
+}
+
+
+/* 
+.social-icon{
+   margin-top: 1rem;
+   margin-left: 15px;
+   font-size: 1.3rem;
+   text-align: center;
+   padding: 5px;
+   transition: all 0.2s ease;
+   cursor: pointer;
+} */
+/* 
+.social-icon:hover{
+   background-color: azure;
+   color: black;
+   border-radius: 20%;
+} */
+
+/* .maincontent{
+   width: 100%;
+   height: 80vh;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.content{
+   position: absolute;
+   left: 10%;
+   top:30%;
+} */
+
+/* .content h1{
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 120%;
+}
+.content span{
+   color: #EEAA55;
+} */
+/* .content h1 span{
+   color:  #EEAA55;
+   display: inline-block;
+   #EA5F5F 
+} */
+
+/* .content p {
+   font-size: 1.1rem;
+}
+
+.buttons{
+   padding-top: 2rem;
+}
+
+.buttons span:nth-child(1){
+   padding: 10px 20px;
+   background-color: #EEAA55;
+   color: aliceblue;
+   border-radius: 50px;
+   cursor: pointer;
+   font-size: 1.2rem;
+   transition: all 0.1s ease;
+   margin-right: 10px;
+}
+
+.buttons span:nth-child(1):hover{
+   background-color: aliceblue;
+   color: #EEAA55;
+}
+
+
+.buttons span:nth-child(2) {
+   padding: 10px 20px;
+   background: transparent;
+   border:1px solid #EEAA55;
+   border-radius: 50px;
+   transition: all 0.1s ease;
+}
+
+.buttons span:nth-child(2):hover{
+   background-color: aliceblue;
+   color: #EEAA55;
+   cursor: pointer;
+} */
+
+.image-profile{
+   position: absolute;
+   right:8%;
+   top:30%;
+   background-image: url('/src/assets/web_developer.gif');
+   width: 400px;
+   height: 400px;
+   /* background: no-repeat; */
+   background-size: cover;
+   
+   border-radius: 50%;
+
+}
+
+
+/* media quaries for middle devices */
+
+@media screen and (max-width:950px){
+   .navbar{
+     display: flex;
+     width: 100%;
+    height: 100%;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+
+   }
+
+   .logo p{
+      margin-top: 1rem;
+   }
+
+   .logo p span{
+      width: 2rem;
+      height: 2rem;
+      background:no-repeat;
+      display: inline-block;
+      background-image: url('/src/assets/profil.png');
+      margin-right: 8px;
+      background-size: cover;
+   }
+
+   .desktop-menu ul{
+      list-style: none;
+      display: flex;
+      margin-top: 2rem;
+      justify-content:flex-start;
+      /* align-items: center; */
+     
+   }
+
+   .desktop-menu ul li {
+      margin-top: 0;
+      margin-right:0.8rem;
+      margin-left: 0;
+      font-size: 0.8rem;
+      display: flex;
+      justify-content:flex-start;
+      align-items: center;
+      cursor: pointer;
+      transform: all 0.6 ease-in-out;
+   }
+
+   /* .maincontent{
+      width: 100%;
+      height: 50vh;
+      display: flex;
+      flex-wrap: wrap;
+   
+   
+   }
+
+   .image-profile{
+      display: none;
+   }
+
+ 
+   .content{
+      top:25%
+   }
+
+   .content h1{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 120%;
+   } */
+}
+
+

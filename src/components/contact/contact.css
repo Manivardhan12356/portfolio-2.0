@@ -1,0 +1,43 @@
+.contact{
+   width: 100%;
+   height: 100vh;
+   margin-top:10rem;
+}
+
+.contact  h2{
+   text-align: center;
+}
+
+.contact-details{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 4rem;
+}
+
+.contact-details span{
+    /* margin-right: 1rem; */
+    color: #EEAA55;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.buttons-contact{
+   padding: 10px 20px;
+   background: transparent;
+   border:1px solid #EEAA55;
+   border-radius: 50px;
+   transition: all 0.1s ease;
+   text-decoration: none;
+}
+
+.buttons-contact:hover{
+   background-color: aliceblue;
+   color: #EEAA55;
+   cursor: pointer;
+
+}
+
+

@@ -1,0 +1,75 @@
+.about {
+   width: 100%;
+   height:100vh;
+   margin-top:2rem;
+}
+.about h2 {
+   text-align: center;
+  
+}
+
+.about-flex{
+   padding-top: 2rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.my-img span {
+   width: 400px;
+   height: 400px;
+   background-image: url('/src/assets/mani.jpg');
+   display: inline-block;
+   margin-right: 5rem;
+   background-size: cover;
+   border-radius: 50%;
+}
+
+.about-content p{
+   line-height: 3rem;
+   color:blanchedalmond;
+}
+
+.skills h2{
+   margin: 10rem;
+   
+}
+
+@media screen  and  (max-width:950px) {
+   .about {
+      width: 100%;
+      height:110vh;
+      
+   }
+
+   .about-flex{ 
+      display: flex;
+      flex-direction: column;
+   }
+
+   .my-img span {
+      width: 200px;
+      height: 200px;
+      background-image: url('/src/assets/mani.jpg');
+      display: inline-block;
+      margin-right: 0rem;
+      margin-bottom: 0.5rem;
+      background-size: cover;
+      border-radius: 50%;
+   }
+
+   .about-content{
+      padding:1rem;
+   }
+
+   .about-content p{
+      line-height: 1.5rem;
+      font-size: 1rem;
+      color:blanchedalmond;
+      display: flex;
+      justify-content: center;
+      margin-left: auto;
+      margin-right:auto ;
+      text-align: justify;
+   }
+}
