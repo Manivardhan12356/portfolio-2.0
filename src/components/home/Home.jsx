@@ -32,7 +32,8 @@ const Home = () => {
           </div>
           <div className="buttons">
             <span><a href="mailto:manivardhaan112356@gmail.com">mail me</a></span>
-            <span>Download CV</span>
+            <span><a href="/src/">Download CV</a></span>
+            <span></span>
           </div>
         </div>
         <div className="image-profile"></div>
