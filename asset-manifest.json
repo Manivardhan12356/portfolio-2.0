@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio-2.0/static/css/main.58e93f7e.css",
+    "main.js": "/portfolio-2.0/static/js/main.11f611b1.js",
+    "static/media/text-manipulate-img.png": "/portfolio-2.0/static/media/text-manipulate-img.387a0be500f24cac9e74.png",
+    "static/media/sample-webste.png": "/portfolio-2.0/static/media/sample-webste.76b73a20bf389f9821b6.png",
+    "static/media/web_developer.gif": "/portfolio-2.0/static/media/web_developer.3d32ce6666a8379c7b44.gif",
+    "static/media/ecommerce.png": "/portfolio-2.0/static/media/ecommerce.5bc389b3fd38752a26b4.png",
+    "static/media/mani.jpg": "/portfolio-2.0/static/media/mani.5f24824e553c3af1d753.jpg",
+    "static/media/portfolio-0ne.png": "/portfolio-2.0/static/media/portfolio-0ne.8af754c236b51f168bfe.png",
+    "static/media/redux.png": "/portfolio-2.0/static/media/redux.c9be37e0fece29c624b0.png",
+    "static/media/node.png": "/portfolio-2.0/static/media/node.8683d89cf78ffae3d1f7.png",
+    "static/media/figma.png": "/portfolio-2.0/static/media/figma.152e55329b6f1915967e.png",
+    "static/media/css.png": "/portfolio-2.0/static/media/css.5721a3928fe43de6baf8.png",
+    "static/media/git.png": "/portfolio-2.0/static/media/git.a54d3fa44e02f2f61e69.png",
+    "index.html": "/portfolio-2.0/index.html",
+    "main.58e93f7e.css.map": "/portfolio-2.0/static/css/main.58e93f7e.css.map",
+    "main.11f611b1.js.map": "/portfolio-2.0/static/js/main.11f611b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58e93f7e.css",
+    "static/js/main.11f611b1.js"
+  ]
+}
